@@ -1,6 +1,7 @@
 # I-Repair
 
-This repo contains the I-Repair code for localised repairs of Neural Networks. 
+This repo contains the I-Repair code for localised repairs of Neural Networks 
+published in https://dl.acm.org/doi/10.1145/3477314.3507059. 
 
 I-repair is used to repair a set of misclassified inputs by iteratively rescaling 
 weights connected to individual nodes. In order to determine good repair-node 
