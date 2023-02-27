@@ -1,0 +1,9 @@
+*DS_Store
+__pycache__
+.pytest_cache
+.vscode
+
+*logs/
+
+.idea
+*tmp*

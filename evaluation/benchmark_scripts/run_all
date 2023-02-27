@@ -1,0 +1,17 @@
+#!/bin/bash
+
+python resnet_retrain.py
+python resnet_repair_edge.py
+
+python mnist_retrain.py
+python mnist_repair_edge.py
+
+python resnet_retrain_only_spec.py
+python resnet_repair_edge_only_spec.py
+
+python resnet_retrain_multiclass.py
+python resnet_repair_edge_multiclass.py
+
+python resnet_repair_edge_randomised.py
+python resnet_repair_edge_both_ce_inf.py
+python mnist_repair_node.py

@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+llvmlite = "*"
+pillow = "*"
+torchvision = "*"
+torch = "*"
+matplotlib = "*"
+scipy = "*"
+tqdm = "*"
+cython = "*"
+onnx = "*"
+requests = "*"
+h5py = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"
